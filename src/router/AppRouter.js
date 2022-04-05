@@ -12,8 +12,8 @@ const AppRouter = () => {
       <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/" element={<Login/>}/>
-            <Route path="/" element={<Register/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/register" element={<Register/>}/>
         </Routes>
       </BrowserRouter>
     </div>
