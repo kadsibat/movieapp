@@ -76,7 +76,7 @@ const Register = () => {
       >
         <PersonAddAltIcon />
       </Avatar>
-      <Typography sx={{ marginTop: "1rem", MARGİNbOTTOM: "1rem" }} variant="h4">
+      <Typography sx={{ marginTop: "1rem", marginBottom: "1rem" }} variant="h4">
         Register
       </Typography>
       <Formik>

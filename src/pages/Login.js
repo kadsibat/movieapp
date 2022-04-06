@@ -68,7 +68,7 @@ import {
         >
           <LoginIcon/>
         </Avatar>
-        <Typography sx={{ marginTop: "1rem", MARGİNbOTTOM: "1rem" }} variant="h4">
+        <Typography sx={{ marginTop: "1rem", marginBottom: "1rem" }} variant="h4">
           Login
         </Typography>
         <Formik>
@@ -122,7 +122,7 @@ import {
           )}
         </Formik>
         <Typography sx={{marginTop:"2rem"}}>
-            Already have a account ? <Link onClick={()=>navigate("/register")} sx={{textDecaration:"none",cursor:"pointer"}}>Register</Link>
+            Don't have a account ? <Link onClick={()=>navigate("/register")} sx={{textDecaration:"none",cursor:"pointer"}}>Register</Link>
         </Typography>
       </Container>
     );
